@@ -1,0 +1,345 @@
+.outDiv {
+  width: 100%;
+}
+.outDiv .nav {
+  width: 1190px;
+  height: 40px;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  border: 1px solid #e8e8e8;
+}
+.outDiv .nav>ul {
+  float: left;
+}
+.outDiv .nav>ul li {
+  display: inline-block;
+  height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  color: #6d6d6d;
+  padding: 0 20px;
+  float: left;
+  border: 1px solid #f5f5f5;
+}
+.outDiv .nav>ul li:hover {
+  background-color: #fff;
+  color: #f50;
+  cursor: pointer;
+}
+.outDiv .nav>ul .bdColor {
+  background-color: #fff;
+  color: #f50;
+  cursor: pointer;
+}
+.outDiv .nav .price {
+  position: relative;
+  float: left;
+  padding-left: 8px;
+}
+.outDiv .nav .price ul li {
+  float: left;
+  line-height: 34px;
+}
+.outDiv .nav .price ul li input {
+  width: 50px;
+  height: 26px;
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+}
+.outDiv .nav .price ul li .button {
+  width: 50px;
+  height: 26px;
+  margin-top: 6px;
+  margin-left: 6px;
+  background-color: #f40;
+  border-radius: 5px;
+  color: #fff;
+  line-height: 26px;
+  display: none;
+}
+.outDiv .nav .price ul .line {
+  padding: 0 2px;
+}
+.outDiv .nav .price:hover {
+  width: 180px;
+  height: 38px;
+  margin-left: -1px;
+  margin-top: -1px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.outDiv .nav .price:hover .button {
+  display: block;
+}
+.outDiv .nav .price:hover .button:hover {
+  background-color: #f82800;
+}
+.outDiv .nav .area span {
+  float: right;
+  margin-right: 250px;
+  height: 38px;
+  font-size: 14px;
+  color: #6d6d6d;
+  padding: 0 20px;
+  border: 1px solid #f5f5f5;
+  line-height: 38px;
+}
+.outDiv .nav .area span:hover {
+  color: #f50;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.outDiv .nav .area span:hover .citys {
+  background-color: #fff;
+  color: #f50;
+  display: block;
+}
+.outDiv .nav .area span .citys {
+  position: absolute;
+  z-index: 3;
+  right: 70px;
+  top: 39px;
+  width: 356px;
+  height: 356px;
+  line-height: 12px;
+  background-color: #fff;
+  display: none;
+}
+.outDiv .nav .area span .citys .sections {
+  width: 356px;
+  height: 356px;
+  border: 1px solid #ccc;
+}
+.outDiv .nav .area span .citys .sections div {
+  font-size: 12px;
+  color: #6d6d6d;
+}
+.outDiv .nav .area span .citys .sections div a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+.outDiv .nav .area span .citys .sections div .current {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+.outDiv .nav .area span .citys .sections .section1 {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.outDiv .nav .area span .citys .sections .section2 {
+  margin-left: 16px;
+  margin-top: 20px;
+}
+.outDiv .nav .area span .citys .sections .section2 a {
+  padding-right: 30px;
+}
+.outDiv .nav .area span .citys .sections .section3 {
+  margin-left: 16px;
+  margin-top: 12px;
+}
+.outDiv .nav .area span .citys .sections .section3 a {
+  padding-right: 17px;
+}
+.outDiv .nav .area span .citys .sections .line {
+  height: 1px;
+  width: 352px;
+  margin-top: 18px;
+  border-top: 1px dashed #e0e0e0;
+}
+.outDiv .nav .area span .citys .sections .section4 {
+  margin-left: 16px;
+  margin-top: 10px;
+}
+.outDiv .nav .area span .citys .sections .section4 a {
+  display: inline-block;
+  margin-top: 10px;
+  padding-right: 17px;
+}
+.outDiv .nav .area span .citys .sections .button {
+  margin-top: 26px;
+  margin-left: 16px;
+}
+.outDiv .nav .area span .citys .sections .button .text {
+  width: 178px;
+  height: 22px;
+  border: 1px solid #dfdfdf;
+  font-size: 12px;
+  line-height: 12px;
+}
+.outDiv .nav .area span .citys .sections .button .submit {
+  width: 44px;
+  height: 24px;
+  background-color: #f40;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 13px;
+}
+.outDiv .nav .area span .citys .sections .button .submit:hover {
+  background-color: #f82800;
+}
+.outDiv .nav .pages {
+  float: right;
+  margin-top: -26px;
+  margin-right: 26px;
+}
+.outDiv .nav .pages .span:hover {
+  color: #f40;
+  cursor: pointer;
+}
+.outDiv .page {
+  width: 100%;
+}
+.outDiv .page .main {
+  width: 1190px;
+  margin: 30px auto;
+}
+.outDiv .page .main .box1 {
+  float: left;
+  margin: 0 16px 16px 0;
+  width: 222px;
+  height: 364px;
+  border: 1px solid #ededed;
+  position: relative;
+}
+.outDiv .page .main .box1:hover {
+  border: 1px solid #f40;
+}
+.outDiv .page .main .box1 a>img {
+  width: 220px;
+  height: 220px;
+}
+.outDiv .page .main .box1 a {
+  display: block;
+  width: 220px;
+  height: 220px;
+}
+.outDiv .page .main .box1 a:hover .hidden {
+  transform: translateY(-30px);
+}
+.outDiv .page .main .box1 a .hidden {
+  width: 220px;
+  height: 30px;
+  background-color: rgba(255,68,0,0.7);
+  position: absolute;
+  top: 220px;
+  transition: 0.2s;
+  z-index: 1;
+}
+.outDiv .page .main .box1 a .hidden span {
+  display: block;
+  float: left;
+  width: 110px;
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 30px;
+}
+.outDiv .page .main .box1 a .hidden .span1 {
+  color: #fba187;
+  border-right: 1px solid rgba(255,255,255,0.4);
+}
+.outDiv .page .main .box1 a .hidden .span2 {
+  color: #fff;
+}
+.outDiv .page .main .box1 .prices {
+  width: 220px;
+  height: 100px;
+  position: relative;
+  background-color: #fff;
+  z-index: 2;
+}
+.outDiv .page .main .box1 .prices .price {
+  width: 220px;
+  padding: 10px 10px;
+}
+.outDiv .page .main .box1 .prices .price .money {
+  color: #f40;
+  font-size: 18px;
+  font-family: verdana, arial;
+  line-height: 12px;
+  font-weight: bold;
+}
+.outDiv .page .main .box1 .prices .price .buy {
+  font-size: 12px;
+  color: #888;
+  float: right;
+}
+.outDiv .page .main .box1 .prices .text {
+  width: 210px;
+  height: 36px;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 10px;
+}
+.outDiv .page .main .box1 .prices .text a {
+  width: 210px;
+  height: 36px;
+}
+.outDiv .page .main .box1 .prices .text a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+.outDiv .page .main .box1 .prices .icon {
+  width: 220px;
+  height: 80px;
+}
+.outDiv .page .main .box1 .prices .icon .shop {
+  float: left;
+  width: 120px;
+  heigth: 22px;
+}
+.outDiv .page .main .box1 .prices .icon .shop a {
+  width: 120px;
+  height: 22px;
+}
+.outDiv .page .main .box1 .prices .icon .shop a .grade {
+  display: block;
+  width: 8px;
+  margin-top: 10px;
+}
+.outDiv .page .main .box1 .prices .icon .shop a .grade span {
+  display: block;
+  width: 8px;
+  height: 2px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+.outDiv .page .main .box1 .prices .icon .shop a .grade .grade1 {
+  background-color: #f40;
+}
+.outDiv .page .main .box1 .prices .icon .shop a .grade .grade2 {
+  background-color: #00ba97;
+}
+.outDiv .page .main .box1 .prices .icon .shop a .grade .grade3 {
+  background-color: #f40;
+}
+.outDiv .page .main .box1 .prices .icon .shop a .shopName {
+  display: block;
+  font-size: 12px;
+  color: #888;
+  margin-top: -11px;
+  margin-left: 24px;
+  text-decoration: underline;
+}
+.outDiv .page .main .box1 .prices .icon .shop a .shopName:hover {
+  color: #f40;
+}
+.outDiv .page .main .box1 .prices .icon .location {
+  color: #888;
+  font-size: 13px;
+  float: right;
+  margin-top: 9px;
+  margin-right: 8px;
+}
+.outDiv .page .main .box1 .prices .icon .img {
+  float: left;
+  width: 220px;
+  height: 20px;
+  margin-top: 5px;
+}
+.outDiv .page .main .box1 .prices .icon .img img {
+  margin-left: 3px;
+}
