@@ -64,6 +64,7 @@
 						background-color rgb(248,40,0)
 		.area
 			span
+				position relative
 				float right
 				margin-right 250px
 				height 38px
@@ -84,8 +85,8 @@
 				.citys
 					position absolute
 					z-index 3
-					right 70px
-					top 39px
+					left 0
+					top 37px
 					width 356px
 					height 356px
 					line-height 12px
@@ -167,8 +168,11 @@
 				height 364px
 				border 1px solid rgb(237,237,237)
 				position relative
+				transition all .3s linear
 				&:hover
+					transform translateY(-3px)
 					border 1px solid rgb(255,68,0)
+					box-shadow 0 10px 30px rgba(120,120,120,.5)
 				a>img
 					width 220px
 					height 220px
@@ -184,7 +188,7 @@
 						background-color rgba(255,68,0,.7)
 						position absolute
 						top 220px
-						transition 0.2s
+						transition all .2s linear
 						z-index 1
 						span
 							display block
@@ -228,6 +232,7 @@
 						a
 							width 210px
 							height 36px
+							transition all .2s linear
 							&:hover
 								color rgb(255,68,0)
 								text-decoration underline
@@ -264,6 +269,7 @@
 									margin-top -11px
 									margin-left 24px
 									text-decoration underline
+									transition all .2s linear
 									&:hover
 										color #f40 
 						.location

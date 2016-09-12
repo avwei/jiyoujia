@@ -1,3 +1,6 @@
+// 不可狂击选中
+$('body').bind("selectstart",function(){ return false;});
+
 $.ajax({
 	url:"http://www.ikindness.cn/api/test/getProduct"
 }).done(function(data){
